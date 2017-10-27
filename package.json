@@ -1,0 +1,35 @@
+{
+  "name": "exige",
+  "version": "0.1.0",
+  "description": "Require a module without caching.",
+  "main": "index.js",
+  "engines": {
+    "node": ">= 7.6.0"
+  },
+  "dependencies": {
+    "caller-path": "^2.0.0",
+    "resolve-from": "^4.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.23.0"
+  },
+  "scripts": {
+    "test": "ava test/unit/index.spec.js"
+  },
+  "keywords": [
+    "require",
+    "testing",
+    "unit",
+    "e2e"
+  ],
+  "author": "cyberwombat",
+  "license": "ISC",
+  "homepage": "https://github.com/cyberwombat/exige",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cyberwombat/exige.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cyberwombat/exige/issues"
+  }
+}
