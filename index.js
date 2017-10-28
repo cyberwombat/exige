@@ -3,7 +3,7 @@ const path = require('path')
 const resolveFrom = require('resolve-from')
 const callerPath = require('caller-path')
 
-const exige = (name) => {
+const freshload = (name) => {
   let modPath = resolveFrom(path.dirname(callerPath()), name)
 
   const search = (name, callback) => {
@@ -32,4 +32,4 @@ const exige = (name) => {
   return require(modPath)
 }
 
-module.exports = exige
+module.exports = freshload

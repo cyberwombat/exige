@@ -1,4 +1,4 @@
-# Exige
+# Freshload
 
 ## Description
 A simple module to clear require cache and reload for testing. 
@@ -13,10 +13,10 @@ There are others out there but none were capable of clearing `node-config` prope
      ...
 
     // test.js
-    const exige = require('exige')
+    const freshload = require('freshload')
 
     test((t) => {
-        const app = exige(../index.js)
+        const app = freshload(../index.js)
         ...
     })
 

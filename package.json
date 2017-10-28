@@ -1,5 +1,5 @@
 {
-  "name": "exige",
+  "name": "freshload",
   "version": "0.1.0",
   "description": "Require a module without caching.",
   "main": "index.js",
@@ -24,12 +24,12 @@
   ],
   "author": "cyberwombat",
   "license": "ISC",
-  "homepage": "https://github.com/cyberwombat/exige",
+  "homepage": "https://github.com/cyberwombat/freshload",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cyberwombat/exige.git"
+    "url": "git+https://github.com/cyberwombat/freshload.git"
   },
   "bugs": {
-    "url": "https://github.com/cyberwombat/exige/issues"
+    "url": "https://github.com/cyberwombat/freshload/issues"
   }
 }
