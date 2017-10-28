@@ -22,4 +22,4 @@ There are others out there but none were capable of clearing `node-config` prope
 
 
 ## Thanks
-This code was inspired by this StackOverflow [answer](https://stackoverflow.com/a/14801711/856498)
+This code was inspired by this StackOverflow [answer](https://stackoverflow.com/a/14801711/856498).
